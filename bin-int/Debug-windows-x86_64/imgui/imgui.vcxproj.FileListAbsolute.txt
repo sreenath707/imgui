@@ -1,0 +1,2 @@
+D:\Projects\variant\Variant\Vender\imgui\bin\Debug-windows-x86_64\imgui\imgui.pdb
+D:\Projects\variant\Variant\Vender\imgui\bin-int\Debug-windows-x86_64\imgui\imgui.pdb
