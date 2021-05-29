@@ -1,6 +1,8 @@
 project "imgui"
 	kind "StaticLib"
 	language "C++"
+	staticruntime "On"
+
 
 	targetdir ("bin/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
 	objdir ("bin-int/%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/%{prj.name}")
@@ -22,7 +24,6 @@ project "imgui"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "On"
 
 	filter "configurations:Debug"
 		runtime "Debug"
